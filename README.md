@@ -47,6 +47,15 @@ cd punes
 make
 ```
 the executable `punes` is in the `src` directory.
+
+Compilation of puNES
+
+####sudo apt-get install git ####sudo apt-get install autotools-dev autoconf build-essential pkg-config libasound2-dev qtbase5-dev qttools5-dev-tools ####libqt5svg5-dev nvidia-cg-toolkit or sudo apt-get install qt4-default ####cd puNES ####./autogen.sh ####./configure
+make enable-qt5
+
+####make
+./src/punes
+
 #### Linux Debug version
 If you need the debug version then you need to replace the `./configure` command of the previous examples with the following:
 ```bash
